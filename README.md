@@ -5,13 +5,13 @@ Implement the k-means algorithm using the Mahalanobis distance instead of the st
 
 #### Results:
 ![](./img/1.png)
-The Original
+Figure1:The Original <div align="center">
 
 ![](./img/2.png)
-Euclidean distance
+Figure2:Euclidean distance
 
 ![](./img/3.png)
-Mahalanobis distance
+Figure3:Mahalanobis distance
 
 #### Implementaion of Vavies0Bouldin index for cluster validation
 Implement the Davies-Bouldin index for cluster validation (intrinsic cluster validation). Then, perform model selection for finding the best partition order k of k-means. For this part of the project, use the standard k-means implementation operating with the Euclidean distance and centroids as cluster representatives. Perform simulations and comments on the results obtained on the dataset named "cluster_validation_data.txt" that has been provided with this notebook.
