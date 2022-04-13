@@ -13,11 +13,13 @@ Implement the k-means algorithm using the Mahalanobis distance instead of the st
 #### Figure3:Mahalanobis distance
 ![](./img/3.png)
 
+#### Analysis
+Based on the following experimental results, K-Means operating with Mahalanobis distance works undoubtedly better than K-Means equipped with Euclidean distance and a centroid-based cluster representative for linearly correlated elliptical data
 
 #### Implementaion of Vavies0Bouldin index for cluster validation
 Implement the Davies-Bouldin index for cluster validation (intrinsic cluster validation). Then, perform model selection for finding the best partition order k of k-means. For this part of the project, use the standard k-means implementation operating with the Euclidean distance and centroids as cluster representatives. Perform simulations and comments on the results obtained on the dataset named "cluster_validation_data.txt" that has been provided with this notebook.
 
 #### Results:
 ![](./img/4.png)
-
-
+#### Analysis
+The lower the davies bouldin value the better the cluster, and so from our graph we can conclude that data set: the best number of partitions of k were 3
