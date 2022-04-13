@@ -1,16 +1,12 @@
 #ML-clustering k-means
 
-##Part1
+## Part1
 #### implement the k-means algorithm using the Mahalanobis distance
 Implement the k-means algorithm using the Mahalanobis distance instead of the standard Euclidean distance. Then, create a toy dataset with 2 or 3 dimensions (so it is possible to easily visualize the data) with roughly 500 data points. Such a dataset should be designed so that it allows you to show how and when k-means operating with the Mahalanobis distance works better than k-means equipped with the Euclidean distance and a centroid-based cluster representative.
 
 #### Results:
-The Original
 ![](./img/1.png)
-
-Euclidean distance
 ![](./img/2.png)
-Mahalanobis distance
 ![](./img/3.png)
 
 #### Analysis
